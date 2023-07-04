@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+
+  .logo {
+    flex-shrink: 0;
+  }
+
+  .wrapper {
+    display: flex;
+
+    nav {
+      display: flex;
+
+      a {
+        color: $nav-link-color;
+        text-decoration: none;
+        margin-left: 20px;
+
+        &:first-child {
+          margin-left: 0;
+        }
+
+        &:hover {
+          color: darken($nav-link-color, 15%);
+        }
+      }
+    }
+  }
+}

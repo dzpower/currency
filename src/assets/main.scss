@@ -1,0 +1,35 @@
+@import "./variables";
+@import "./_normalize.css";
+@import "./header";
+@import "./currency-list";
+@import "./currency-item";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $bg-color;
+  color: $font-color;
+  font-family: 'Arial', sans-serif;
+}
+
+
+.h1-title {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}

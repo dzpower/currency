@@ -1,0 +1,16 @@
+.currency-item {
+  width: 100%;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+
+  &__title {
+    padding-right: 1rem;
+  }
+
+  &__rate {
+    font-weight: bold;
+  }
+}
